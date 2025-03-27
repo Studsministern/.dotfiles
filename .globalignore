@@ -1,0 +1,4 @@
+# Global .gitignore
+
+# Downloads
+*Zone.identifier

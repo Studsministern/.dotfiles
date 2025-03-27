@@ -1,0 +1,10 @@
+[user]
+	name = Eric Weidow
+	email = 85724887+Studsministern@users.noreply.github.com
+[init]
+	defaultBranch = main
+[pull]
+	rebase = true
+[core]
+  excludesfile = ~/.dotfiles/.globalignore
+	editor = code --wait
