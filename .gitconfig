@@ -5,6 +5,8 @@
 	defaultBranch = main
 [pull]
 	rebase = true
+[push]
+	autoSetupRemote = true
 [core]
   excludesfile = ~/.dotfiles/.globalignore
 	editor = code --wait
