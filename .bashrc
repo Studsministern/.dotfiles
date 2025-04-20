@@ -125,7 +125,9 @@ fi
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export GRADLE_HOME=/opt/gradle/gradle-8.10.2
-export PATH=$GRADLE_HOME/bin:$GOPATH/bin:$GOROOT/bin:$PATH
+export SYMFONYPATH=$HOME/.symfony5
+export PNPM_HOME=$HOME/.local/share/pnpm
+export PATH=$GRADLE_HOME/bin:$GOPATH/bin:$GOROOT/bin:$SYMFONYPATH/bin:$PNPM_HOME:$PATH
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -134,3 +136,4 @@ export NVM_DIR="$HOME/.nvm"
 ### Configuration ###
 # Turn off software flow control for CTRL+S
 stty -ixon
+
