@@ -13,7 +13,7 @@ These dotfiles are configured to be used with:
 
 ```bash
 cd ~
-git clone https://github.com/studsministern/.dotfiles.git
+git clone https://github.com/Studsministern/.dotfiles.git
 ```
 
 2. Change directory to the `.dotfiles` directory:
